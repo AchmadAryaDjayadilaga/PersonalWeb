@@ -81,3 +81,14 @@ nav {
     border-radius: 5px;
     cursor: pointer;
 }
+i {
+    width: auto; /* Hindari pengaruh width dari elemen lain */
+    height: auto;
+}
+.btn-primary i {
+    display: inline-block; /* Pastikan ikon tetap dalam bentuk aslinya */
+    font-size: 1.5em; /* Ukuran lebih besar */
+    width: auto;
+    height: auto;
+}
+
